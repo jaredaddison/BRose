@@ -1,9 +1,9 @@
 <template>
-  <PricingRepo />
+	<PricingRepo />
 </template>
 
 <script setup>
-  import PricingRepo from '@/components/Pricingrepo.vue';
+	import PricingRepo from '@/components/PricingRepo.vue';
 </script>
 
 <style scoped></style>
