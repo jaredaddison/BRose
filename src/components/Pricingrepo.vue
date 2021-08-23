@@ -129,8 +129,8 @@
 				"Urea",
 				"Creatinine",
 				"Bedside Ultrasound (A-FAST, T-FAST, Vet-BLUE)",
-				"SpO2"
-							"Remote Support"
+				"SpO2",
+				"Remote Support"
 			]
 		},
 		{
