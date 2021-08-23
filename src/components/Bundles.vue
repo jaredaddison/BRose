@@ -157,7 +157,7 @@
 				"Injectable pain relief",
 				"Antiemetics",
 				"Gastric Protection",
-				"SpO2", 
+				"SpO2",
 				"Blood Pressure"
 			]
 		},
@@ -197,8 +197,8 @@
 				"Parvo Test",
 				"T4",
 				"FIV/FeLV",
-				"PT/APTT", 
-				"SpO2", 
+				"PT/APTT",
+				"SpO2",
 				"Blood Pressure"
 			]
 		},
