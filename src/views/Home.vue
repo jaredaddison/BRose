@@ -1,9 +1,9 @@
 <template>
-	<Bundles />
+<main>
+<Bundles />
+</main>
 </template>
 
 <script setup>
-	import Bundles from '@/components/Bundles.vue';
+import * as Bundles from '@/components/Bundles.vue'
 </script>
-
-<style scoped></style>
