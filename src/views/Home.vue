@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<button
+		<a
 			type="button"
 			class="
 				inline-flex
@@ -18,12 +18,10 @@
 				focus:outline-none
 				focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
 			"
+			href="https://app.pitch.com/app/presentation/dc1b66ea-44df-4320-a37b-ccd53cbc6cfa/0d4a8066-ef8f-4ddd-9b7f-9b058caafdac"
 		>
-			<a
-				href="https://app.pitch.com/app/presentation/dc1b66ea-44df-4320-a37b-ccd53cbc6cfa/0d4a8066-ef8f-4ddd-9b7f-9b058caafdac"
-				>Presentation</a
-			>
-		</button>
+			Presentation
+		</a>
 		<Bundles />
 	</main>
 </template>
