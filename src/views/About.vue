@@ -1,30 +1,13 @@
 <template>
-<div id="input">
- <ul>
-  <li>
-<input v-model="dog.weight" type="number" placeholder="Weight" />kg
-  </li><li>
-<input v-model="dog.dehydration" type="number" placeholder="Dehydration"/>% bodyweight (5% Minor | 10% Moderate | 15% Severe)
-</li><li>
-<input v-model="dog.ongoingLoss" type="number" placeholder="Ongoin Loss"/>ml/hr of ongoing fluid loss
-</li><li>
-<input v-model="dog.bolusNumber" type="number" /> = Total Number of bolus' provided
-</li>
-</ul>
-</div>
-<div id="fluid">
-<p>
- <ul>
-<li> Surgical fluid rate is = {{ dog.surgicalRate }}ml/hr </li>
-<li> A bolus for this patient is {{ dog.bolusVolume }}ml over 15minutes</li>
-<li> The maintenance fluid rate is {{ dog.maintenanceRate }}ml/hr</li>
-</ul>
-</p>
-</div>
+	<div>
+		<router-link to="Home" class="bg-gray-900 text-white m-5 mx-auto">
+			Click Here
+		</router-link>
+		<div class="container mx-aout">
+			<ButtonRepo />
+		</div>
+	</div>
 </template>
-
 <script setup>
-	import dog from '@/logic/Fluids'
+	import ButtonRepo from '@/components/ButtonRepo.vue'
 </script>
-
-<style scoped></style>
