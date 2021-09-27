@@ -9,7 +9,7 @@
   "dependencies": {
     "@vueuse/core": "^6.0.0",
     "@vueuse/motion": "^1.6.0",
-    "@vueuse/shared": "^6.0.0",
+    "@vueuse/shared": "^6.5.3",
     "vue": "^3.2.3",
     "vue-chemistry": "^0.2.2",
     "vue-router": "^4.0.11"
