@@ -13,7 +13,7 @@
     "@vueuse/shared": "^6.5.3",
     "vue": "^3.2.19",
     "vue-chemistry": "^0.2.2",
-    "vue-router": "^4.0.11"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.1",
