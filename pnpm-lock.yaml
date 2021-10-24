@@ -15,11 +15,11 @@ specifiers:
   '@vueuse/motion': ^1.6.0
   '@vueuse/shared': ^6.5.3
   autoprefixer: ^10.3.7
-  tailwindcss: ^2.2.16
+  tailwindcss: ^2.2.17
   vite: ^2.6.3
   vue: ^3.2.19
   vue-chemistry: ^0.2.2
-  vue-router: ^4.0.11
+  vue-router: ^4.0.12
 
 dependencies:
   '@vueuse/core': 6.5.3_vue@3.2.19
@@ -28,20 +28,20 @@ dependencies:
   '@vueuse/shared': 6.5.3_vue@3.2.19
   vue: 3.2.19
   vue-chemistry: 0.2.2_vue@3.2.19
-  vue-router: 4.0.11_vue@3.2.19
+  vue-router: 4.0.12_vue@3.2.19
 
 devDependencies:
   '@headlessui/vue': 1.4.1_vue@3.2.19
   '@heroicons/vue': 1.0.4_vue@3.2.19
-  '@tailwindcss/aspect-ratio': 0.2.2_tailwindcss@2.2.16
-  '@tailwindcss/forms': 0.3.4_tailwindcss@2.2.16
-  '@tailwindcss/line-clamp': 0.2.2_tailwindcss@2.2.16
-  '@tailwindcss/typography': 0.4.1_tailwindcss@2.2.16
+  '@tailwindcss/aspect-ratio': 0.2.2_tailwindcss@2.2.17
+  '@tailwindcss/forms': 0.3.4_tailwindcss@2.2.17
+  '@tailwindcss/line-clamp': 0.2.2_tailwindcss@2.2.17
+  '@tailwindcss/typography': 0.4.1_tailwindcss@2.2.17
   '@types/tailwindcss': 2.2.1
   '@vitejs/plugin-vue': 1.9.3_vite@2.6.3
   '@vue/compiler-sfc': 3.2.19
   autoprefixer: 10.3.7
-  tailwindcss: 2.2.16_autoprefixer@10.3.7
+  tailwindcss: 2.2.17_autoprefixer@10.3.7
   vite: 2.6.3
 
 packages:
@@ -117,32 +117,32 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@tailwindcss/aspect-ratio/0.2.2_tailwindcss@2.2.16:
+  /@tailwindcss/aspect-ratio/0.2.2_tailwindcss@2.2.17:
     resolution: {integrity: sha512-yjvYH1qKQapYUVz0rCRAQ29KlKuiDsWJF/0d24lpTPWtTKBimcKWHiAMjZOILbnRd25PogILsbOyFFVOjFd6Ow==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 2.2.16_autoprefixer@10.3.7
+      tailwindcss: 2.2.17_autoprefixer@10.3.7
     dev: true
 
-  /@tailwindcss/forms/0.3.4_tailwindcss@2.2.16:
+  /@tailwindcss/forms/0.3.4_tailwindcss@2.2.17:
     resolution: {integrity: sha512-vlAoBifNJUkagB+PAdW4aHMe4pKmSLroH398UPgIogBFc91D2VlHUxe4pjxQhiJl0Nfw53sHSJSQBSTQBZP3vA==}
     peerDependencies:
       tailwindcss: '>=2.0.0'
     dependencies:
       mini-svg-data-uri: 1.3.3
-      tailwindcss: 2.2.16_autoprefixer@10.3.7
+      tailwindcss: 2.2.17_autoprefixer@10.3.7
     dev: true
 
-  /@tailwindcss/line-clamp/0.2.2_tailwindcss@2.2.16:
+  /@tailwindcss/line-clamp/0.2.2_tailwindcss@2.2.17:
     resolution: {integrity: sha512-NgA4Ds+/eCiO+6O3SooRsfJ8m7M2+QvNvHwOjBQq7FIYoWwAV4I4Wu4fjHeuO9Yi6p47ceHUKEGGEBh0ozQodg==}
     peerDependencies:
       tailwindcss: '>=2.0.0 || >=3.0.0-alpha.1'
     dependencies:
-      tailwindcss: 2.2.16_autoprefixer@10.3.7
+      tailwindcss: 2.2.17_autoprefixer@10.3.7
     dev: true
 
-  /@tailwindcss/typography/0.4.1_tailwindcss@2.2.16:
+  /@tailwindcss/typography/0.4.1_tailwindcss@2.2.17:
     resolution: {integrity: sha512-ovPPLUhs7zAIJfr0y1dbGlyCuPhpuv/jpBoFgqAc658DWGGrOBWBMpAWLw2KlzbNeVk4YBJMzue1ekvIbdw6XA==}
     peerDependencies:
       tailwindcss: '>=2.0.0'
@@ -151,7 +151,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 2.2.16_autoprefixer@10.3.7
+      tailwindcss: 2.2.17_autoprefixer@10.3.7
     dev: true
 
   /@types/cookie/0.3.3:
@@ -1565,8 +1565,8 @@ packages:
     dev: false
     optional: true
 
-  /tailwindcss/2.2.16_autoprefixer@10.3.7:
-    resolution: {integrity: sha512-EireCtpQyyJ4Xz8NYzHafBoy4baCOO96flM0+HgtsFcIQ9KFy/YBK3GEtlnD+rXen0e4xm8t3WiUcKBJmN6yjg==}
+  /tailwindcss/2.2.17_autoprefixer@10.3.7:
+    resolution: {integrity: sha512-WgRpn+Pxn7eWqlruxnxEbL9ByVRWi3iC10z4b6dW0zSdnkPVC4hPMSWLQkkW8GCyBIv/vbJ0bxIi9dVrl4CfoA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
@@ -1695,8 +1695,8 @@ packages:
       vue: 3.2.19
     dev: false
 
-  /vue-router/4.0.11_vue@3.2.19:
-    resolution: {integrity: sha512-sha6I8fx9HWtvTrFZfxZkiQQBpqSeT+UCwauYjkdOQYRvwsGwimlQQE2ayqUwuuXGzquFpCPoXzYKWlzL4OuXg==}
+  /vue-router/4.0.12_vue@3.2.19:
+    resolution: {integrity: sha512-CPXvfqe+mZLB1kBWssssTiWg4EQERyqJZes7USiqfW9B5N2x+nHlnsM1D3b5CaJ6qgCvMmYJnz+G0iWjNCvXrg==}
     peerDependencies:
       vue: ^3.0.0
     dependencies:

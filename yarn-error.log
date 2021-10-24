@@ -1,0 +1,57 @@
+Arguments: 
+  /home/gitpod/.nvm/versions/node/v16.11.0/bin/node /home/gitpod/.nvm/versions/node/v16.11.0/bin/yarn
+
+PATH: 
+  /home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.rvm/gems/ruby-2.7.3/bin:/home/gitpod/.rvm/gems/ruby-2.7.3@global/bin:/home/gitpod/.rvm/rubies/ruby-2.7.3/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/ide/bin:/workspace/.cargo/bin:/workspace/.rvm/bin:/workspace/.pip-modules/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/versions/node/v16.11.0/bin:/home/gitpod/.cargo/bin:/usr/games:/usr/games:/home/gitpod/.nvm/versions/node/v16.11.0/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v16.11.0/bin:/home/gitpod/.nvm/versions/node/v16.11.0/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/gitpod/.cache/yarn/v6/npm-picocolors-0.2.1-570670f793646851d1ba135996962abad587859f-integrity/node_modules/picocolors/LICENSE' -> '/workspace/BRose/node_modules/autoprefixer/node_modules/picocolors/LICENSE'
+
+npm manifest: 
+  {
+    "name": "vite-vue3-tailwind-starter",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite --host",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@vueuse/core": "^6.5.3",
+      "@vueuse/integrations": "^6.5.3",
+      "@vueuse/motion": "^1.6.0",
+      "@vueuse/shared": "^6.5.3",
+      "vue": "^3.2.19",
+      "vue-chemistry": "^0.2.2",
+      "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+      "@headlessui/vue": "^1.4.1",
+      "@heroicons/vue": "^1.0.4",
+      "@tailwindcss/aspect-ratio": "^0.2.2",
+      "@tailwindcss/forms": "^0.3.4",
+      "@tailwindcss/line-clamp": "^0.2.2",
+      "@tailwindcss/typography": "^0.4.1",
+      "@types/tailwindcss": "^2.2.1",
+      "@vitejs/plugin-vue": "^1.9.3",
+      "@vue/compiler-sfc": "^3.2.19",
+      "autoprefixer": "^10.3.7",
+      "tailwindcss": "^2.2.17",
+      "vite": "^2.6.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
