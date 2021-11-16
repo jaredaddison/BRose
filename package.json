@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^6.5.3",
+    "@vueuse/core": "^6.9.1",
     "@vueuse/integrations": "^6.5.3",
     "@vueuse/motion": "^1.6.0",
     "@vueuse/shared": "^6.5.3",
