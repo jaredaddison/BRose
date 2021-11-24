@@ -208,7 +208,15 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.20.tgz#53746961f731a8ea666e3316271e944238dc31db"
   integrity sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==
 
-"@vueuse/core@6.7.3", "@vueuse/core@^6.0.0", "@vueuse/core@^6.5.3":
+"@vueuse/core@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-7.0.3.tgz#5c8290d4f4c232878f795067c094c3e7bda61332"
+  integrity sha512-iKm6H3oZHXvCLhvNTkIKekLTfwnFiUSmb1lNJbm2v6ZU26PrwXHZZ9kdeNolwtV1awPKHoi/5RS/FTIWt+nN5Q==
+  dependencies:
+    "@vueuse/shared" "7.0.3"
+    vue-demi "*"
+
+"@vueuse/core@^6.0.0", "@vueuse/core@^6.5.3":
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.7.3.tgz#1a827ee3be55a98c932f716467337a0826d54993"
   integrity sha512-Cqvk/e4DbdfZlUmVRcxr4rkK5CMn6KqN7TLx2L1++F9HrvlD/FIET3KQ/W7+wHowhdKEjdOUCFJtyU0k65xH2g==
@@ -216,12 +224,13 @@
     "@vueuse/shared" "6.7.3"
     vue-demi "*"
 
-"@vueuse/integrations@^6.5.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-6.7.3.tgz#5bf063a43db9f7a4da0a7fed259e39d8b8cb9990"
-  integrity sha512-lOybv7j+hodSKAtBGTbFwppvpK/S7ko9nEo5n2WyOwYh1b5x9Y4A/BlkpZXKlGEKpp0qCsr+6KdYF8MpBFbUHg==
+"@vueuse/integrations@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/integrations/-/integrations-7.0.3.tgz#d868b1d68adc0c04794e1c1b8c08f7d91ba86950"
+  integrity sha512-NXsXg8w7vJAnX02yTjkiKT4PKjpsO3p/pySd7ar0UV0Nx2nBIJUxAM0kRBFzhU+Z/pCPZXzm2oWWAQVTu1M+HQ==
   dependencies:
-    "@vueuse/core" "6.7.3"
+    "@vueuse/core" "7.0.3"
+    "@vueuse/shared" "7.0.3"
     vue-demi "*"
   optionalDependencies:
     axios "^0.23.0"
@@ -246,6 +255,13 @@
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.7.3.tgz#92ed69b3e79e1a30936fc1f1d39a0107e8d522e0"
   integrity sha512-6syKgXvdikcSEHJzF7iVyXMqe7y7C7pH35EhH70zQLPnLXH6op9OgD2u4Ro1zyxESRkotbFIsuQJghG5IzXbKA==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-7.0.3.tgz#865be595c28149f20029750f0706462750bc39f9"
+  integrity sha512-g3FX5PMK3MrWPFrU6EL9wDYyGlgjOiOroe1idKHezcvtZQ1pkjbpQyLBmjWQvVTEF67k0aGlRd+YTpg8GcfcJw==
   dependencies:
     vue-demi "*"
 
