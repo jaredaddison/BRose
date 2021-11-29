@@ -11,7 +11,7 @@
     "@vueuse/integrations": "^6.5.3",
     "@vueuse/motion": "^1.6.0",
     "@vueuse/shared": "^6.5.3",
-    "vue": "^3.2.19",
+    "vue": "^3.2.23",
     "vue-chemistry": "^0.2.2",
     "vue-router": "^4.0.12"
   },
