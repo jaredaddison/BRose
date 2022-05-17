@@ -208,12 +208,21 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.20.tgz#53746961f731a8ea666e3316271e944238dc31db"
   integrity sha512-FbpX+hD5BvXCQerEYO7jtAGHlhAkhTQ4KIV73kmLWNlawWhTiVuQxizgVb0BOkX5oG9cIRZ42EG++d/k/Efp0w==
 
-"@vueuse/core@6.7.3", "@vueuse/core@^6.0.0", "@vueuse/core@^6.5.3":
+"@vueuse/core@6.7.3", "@vueuse/core@^6.0.0":
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-6.7.3.tgz#1a827ee3be55a98c932f716467337a0826d54993"
   integrity sha512-Cqvk/e4DbdfZlUmVRcxr4rkK5CMn6KqN7TLx2L1++F9HrvlD/FIET3KQ/W7+wHowhdKEjdOUCFJtyU0k65xH2g==
   dependencies:
     "@vueuse/shared" "6.7.3"
+    vue-demi "*"
+
+"@vueuse/core@^8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-8.5.0.tgz#2b7548e52165c88e1463756c36188e105d806543"
+  integrity sha512-VEJ6sGNsPlUp0o9BGda2YISvDZbhWJSOJu5zlp2TufRGVrLcYUKr31jyFEOj6RXzG3k/H4aCYeZyjpItfU8glw==
+  dependencies:
+    "@vueuse/metadata" "8.5.0"
+    "@vueuse/shared" "8.5.0"
     vue-demi "*"
 
 "@vueuse/integrations@^6.5.3":
@@ -233,6 +242,11 @@
     qrcode "^1.4.4"
     universal-cookie "^4.0.4"
 
+"@vueuse/metadata@8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/metadata/-/metadata-8.5.0.tgz#1aaa3787922cfda0f38243aaa7779366a669b4db"
+  integrity sha512-WxsD+Cd+bn+HcjpY6Dl9FJ8ywTRTT9pTwk3bCQpzEhXVYAyNczKDSahk50fCfIJKeWHhyI4B2+/ZEOxQAkUr0g==
+
 "@vueuse/motion@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@vueuse/motion/-/motion-1.6.0.tgz#dff42b4137433da1fd5a8797826f70c105592278"
@@ -246,6 +260,13 @@
   version "6.7.3"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-6.7.3.tgz#92ed69b3e79e1a30936fc1f1d39a0107e8d522e0"
   integrity sha512-6syKgXvdikcSEHJzF7iVyXMqe7y7C7pH35EhH70zQLPnLXH6op9OgD2u4Ro1zyxESRkotbFIsuQJghG5IzXbKA==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@8.5.0":
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-8.5.0.tgz#fa01ecd3161933f521dd6428b9ef8015ded1bbd3"
+  integrity sha512-qKG+SZb44VvGD4dU5cQ63z4JE2Yk39hQUecR0a9sEdJA01cx+XrxAvFKJfPooxwoiqalAVw/ktWK6xbyc/jS3g==
   dependencies:
     vue-demi "*"
 
